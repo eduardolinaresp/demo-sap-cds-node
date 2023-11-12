@@ -30,6 +30,13 @@ Learn more at https://cap.cloud.sap/docs/get-started/.
 
     https://marketplace.visualstudio.com/items?itemName=humao.rest-client
 
+## instalar sqlite3
+
+    npm i sqlite3 -D
+    cds deploy --to sqlite:db/my-bookshop.db
+    
+
+
 ## reiniciar watch 
 
     cds watch ## esto es importante para probar las actualizaciones
