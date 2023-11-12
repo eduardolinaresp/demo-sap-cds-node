@@ -51,12 +51,22 @@ Learn more at https://cap.cloud.sap/docs/get-started/.
 
     choco install make
 
+
+## instalar plugin para deploy (windows)    
+    cf install-plugin multiapps    
+
+## aumentar meroria en mta.yaml para deploy to cf
+
+        https://stackoverflow.com/questions/76057448/error-while-deploying-sap-fiori-and-capm-application-in-sap-btp-trial-account
+
+      disk-quota: 1024mb
+      memory: 1024mb    
+
 ## comprimir mta file    
 
     mbt build -t gen --mtar mta.tar
 
-## instalar plugin para deploy (windows)    
-    cf install-plugin multiapps
+
 ## deploy to cf
 
     cf deploy gen/mta.tar
