@@ -55,6 +55,8 @@ Learn more at https://cap.cloud.sap/docs/get-started/.
 
     mbt build -t gen --mtar mta.tar
 
+## instalar plugin para deploy (windows)    
+    cf install-plugin multiapps
 ## deploy to cf
 
     cf deploy gen/mta.tar
